@@ -20,7 +20,7 @@ namespace FitnessApp.Models
         [Required(ErrorMessage = "Please complite this Textbox")]
         public string Email { get; set; }
         [DataType(DataType.Password)]
-        [StringLength(50, MinimumLength = 10, ErrorMessage = "You need to write longer Password")]
+        [StringLength(50, MinimumLength = 8, ErrorMessage = "You need to write longer Password")]
         public string Password { get; set; }
         [DataType(DataType.Password)]
         [Compare("Password", ErrorMessage = "Please write same Password")]

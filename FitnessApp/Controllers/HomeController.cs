@@ -26,7 +26,7 @@ namespace FitnessApp.Controllers
         }
         void connectionString()
         {
-            con.ConnectionString = "Data source=DESKTOP-UTUINDG; database=tempdb; integrated security = true;";
+            con.ConnectionString = "Data source=DESKTOP-UTUINDG; database=tempdb; integrated security = SSPI;";
         }
         [HttpPost]
         public ActionResult Verify(Login acc)
@@ -36,12 +36,12 @@ namespace FitnessApp.Controllers
             connectionString();
             con.Open();
             com.Connection = con;
-            com.CommandText = "select * from Table1 where username = " + acc.Username + " and Password= " + acc.Password + "";
+            com.CommandText = "select * from SignUps where username = '" + acc.Username + "' and Password= '" + acc.Password + "'";
             dr = com.ExecuteReader();
-            if(securityService.IsValid(acc))
+            if(dr.Read())
             {
                 con.Close();
-                return View("Index");
+                return View("AdminIndex");
             }
             else
             {
@@ -49,9 +49,9 @@ namespace FitnessApp.Controllers
                 return View("Error");
             }
             
-            
+
         }
-       
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -81,16 +81,16 @@ namespace FitnessApp.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(SignUp model)
+        public ActionResult Create(SignUp signUp)
         {
             var isValid = ModelState.IsValid;
             if (isValid)
             {
-                DbContext.NewUser.Add(model);
+                DbContext.NewUser.Add(signUp);
                 DbContext.SaveChanges();
             }
 
-            return View(model);
+            return View(signUp);
         }
 
         public ActionResult Edit(int id)

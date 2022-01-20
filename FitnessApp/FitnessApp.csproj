@@ -318,41 +318,13 @@
     <Compile Include="Services\SecurityService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\animate.css" />
-    <Content Include="Content\flexslider.css" />
-    <Content Include="Content\ihover.css" />
-    <Content Include="Content\popuo-box.css" />
-    <Content Include="Content\style.css" />
-    <Content Include="Content\style1.css" />
-    <Content Include="Content\style2.css" />
+    <Content Include="Content\StyleSheet1.css" />
+    <Content Include="Content\StyleSheet2.css" />
+    <Content Include="Content\StyleSheet3.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Images\22.jpg" />
-    <Content Include="Images\A1.jpg" />
     <Content Include="Images\A1.png" />
-    <Content Include="Images\c1.jpg" />
-    <Content Include="Images\c2.jpg" />
-    <Content Include="Images\c3.jpg" />
-    <Content Include="Images\ga.jpg" />
-    <Content Include="Images\ga1.jpg" />
-    <Content Include="Images\ga2.jpg" />
-    <Content Include="Images\ga3.jpg" />
-    <Content Include="Images\ga4.jpg" />
-    <Content Include="Images\ga5.jpg" />
-    <Content Include="Images\gg.png" />
-    <Content Include="Images\menu.png" />
-    <Content Include="Images\pi.jpg" />
-    <Content Include="Images\pi1.jpg" />
-    <Content Include="Images\pi2.jpg" />
-    <Content Include="Images\se.jpg" />
-    <Content Include="Images\se1.jpg" />
-    <Content Include="Images\se2.jpg" />
-    <Content Include="Images\se3.jpg" />
-    <Content Include="Images\social.png" />
-    <Content Include="Images\t-banner1.jpg" />
-    <Content Include="Images\video.png" />
     <None Include="Dockerfile" />
     <None Include=".dockerignore">
       <DependentUpon>Dockerfile</DependentUpon>
@@ -360,12 +332,8 @@
     <Content Include="fonts\MontserratAlternates-Regular.ttf" />
     <Content Include="fonts\Roboto-Bold.ttf" />
     <Content Include="fonts\Roboto-Regular.ttf" />
-    <Content Include="Scripts\fontawesome.js" />
-    <Content Include="Scripts\jquery-1.11.1.min.js" />
-    <Content Include="Scripts\jquery.flexslider.js" />
-    <Content Include="Scripts\jquery.magnific-popup.js" />
-    <Content Include="Scripts\modernizr.custom.53451.js" />
-    <Content Include="Scripts\wow.min.js" />
+    <Content Include="Images\A11.png" />
+    <Content Include="Scripts\JavaScript.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -375,17 +343,20 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Error.cshtml" />
+    <Content Include="Views\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\Create.cshtml" />
     <Content Include="Views\Home\Edit.cshtml" />
     <Content Include="Views\Home\Delete.cshtml" />
     <Content Include="Views\Home\List.cshtml" />
     <Content Include="Views\_LayoutPage1.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\Create.cshtml" />
+    <Content Include="Views\Home\Gallery.cshtml" />
+    <Content Include="Views\Home\TrainerPage.cshtml" />
+    <Content Include="Views\Home\AdminView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

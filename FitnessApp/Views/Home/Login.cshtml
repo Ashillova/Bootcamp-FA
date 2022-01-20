@@ -1,53 +1,32 @@
-﻿
-@{
-    ViewBag.Title = "Login";
+﻿@{ 
+    Layout = "~/Views/_Layout.cshtml";
 }
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Service login form Responsive Widget Template : W3Layouts</title>
-
-</head>
-
-<body>
-    <div>
-        <a href="Index">Home</a>
-        <a href="About">About</a>
-        <a href="#">Gallery</a>
-        <a href="Contact">Contact up</a>
-        <a href="Login">Login</a>
-    </div>    
-    <div>
-        <h1>Service Login Form</h1>
-        <div>
-            <div>
-                <div>
-                    <h2>Login</h2>
-                    <form action="Create" method="post">
-                        <div>
-                            <span><i aria-hidden="true"></i></span>
-                            <input type="text" placeholder="Username or Email" required="">
+<link rel="stylesheet" href="~/Content/StyleSheet2.css" />
+<div class="signinform">
+    <div class="container">
+        <div class="w3l-form-info">
+            <div class="w3_info">
+                <h2>Login</h2>
+                <form action="Verify" method="post">
+                    <div class="input-group">
+                        <span><i class="fas fa-user" aria-hidden="true"></i></span>
+                        <input type="text" placeholder="Username or Email" required="">
+                    </div>
+                    <div class="input-group">
+                        <span><i class="fas fa-key" aria-hidden="true"></i></span>
+                        <input type="Password" placeholder="Password" required="">
+                    </div>
+                    <div class="form-row bottom">
+                        <div class="form-check">
+                            <input type="checkbox" id="remenber" name="remenber" value="remenber">
+                            <label for="remenber"> Remember me?</label>
                         </div>
-                        <div>
-                            <span><i aria-hidden="true"></i></span>
-                            <input type="Password" placeholder="Password" required="">
-                        </div>
-                        <div>
-                            <div>
-                                <input type="checkbox" id="remenber" name="remenber" value="remenber">
-                                <label for="remenber"> Remember me?</label>
-                            </div>
-
-                        </div>
-                        <button type="submit">Login</button>
-                    </form>
-                    <p><span>or Login with</span></p>
-                </div>
+                        <a href="#url" class="forgot">Forgot password?</a>
+                    </div>
+                    <button class="btn btn-primary btn-block" type="submit">Login</button>
+                </form>
+                <p class="continue"><span>or Login with</span></p>
             </div>
         </div>
-    </div>
-
-</body>
-
-</html>
+    </div>    
+</div>
