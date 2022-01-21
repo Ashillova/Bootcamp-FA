@@ -1,12 +1,16 @@
 ﻿html {
     scroll-behavior: smooth;
 }
+h4 {
+    bottom: 10px;
+    
+}
 
 body,
 html {
     margin: 0;
     padding: 0;
-    color: #585858;
+    color: white;
 }
 
 * {
@@ -73,7 +77,6 @@ a {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6,
 p,
@@ -117,7 +120,7 @@ input[type="email"],
 input[type="Password"] {
     font-size: 17px;
     font-weight: 500;
-    color: #999;
+    color: white;
     text-align: left;
     padding: 14px 15px 12px 35px;
     width: 100%;
@@ -132,7 +135,7 @@ input[type="Password"] {
 .input-group {
     margin-bottom: 25px;
     padding: 0px 0px;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid darkred;
     position: relative;
 }
 
@@ -148,7 +151,7 @@ input[type="Password"] {
 
 .btn-primary {
     color: #fff;
-    background-color: #9146ff;
+    background-color: transparent;
     margin-top: 30px;
     outline: none;
     width: 100%;
@@ -156,18 +159,19 @@ input[type="Password"] {
     cursor: pointer;
     font-size: 18px;
     font-weight: 600;
+    border:none;
+    border-bottom:2px solid darkred;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
-    border: none;
     text-transform: capitalize;
 }
 
 
     .btn-primary:hover {
-        background-color: #7d32eb;
+        background-color:darkred ;
         color: #fff;
     }
 
@@ -182,7 +186,7 @@ input[type="Password"] {
 
     .form-row .form-check input[type="checkbox"] + label:before {
         border-radius: 3px;
-        border: 1px solid #e2e2e2;
+        border: 1px solid darkred;
         color: transparent;
         content: "\2714";
         display: inline-block;
@@ -196,8 +200,8 @@ input[type="Password"] {
     }
 
     .form-row .form-check input[type="checkbox"]:checked + label:before {
-        background-color: #9146ff;
-        border-color: #9146ff;
+        background-color: darkred;
+        border-color: black;
         color: #fff;
     }
 
@@ -212,7 +216,7 @@ input[type="Password"] {
     line-height: 35px;
     margin-bottom: 20px;
     font-weight: 600;
-    color: #3b3663;
+    color: white;
 }
 
 .w3_info h4 {
@@ -244,8 +248,8 @@ h1 {
     box-sizing: border-box;
     padding: 3em 3.5em;
     width: 450px;
-    background: #fff;
-    box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.1);
+    background: transparent;
+    box-shadow: 2px 2px 20px 20px darkred;
 }
 
 
@@ -265,11 +269,11 @@ p.account a {
     padding-top: 20px;
     padding-bottom: 0px;
     font-size: 16px;
-    color: #888;
+    color: white;
 }
 
     p.account a {
-        color: #9146ff;
+        color: white;
     }
 
         p.account a:hover {
@@ -277,7 +281,7 @@ p.account a {
         }
 
 a.forgot {
-    color: #3b3663;
+    color: white;
     margin-top: 2px;
 }
 
@@ -371,69 +375,6 @@ p.continue {
             opacity: .5;
         }
 
-.social-login {
-    display: grid;
-    grid-auto-flow: column;
-    grid-gap: 15px;
-    margin-bottom: 10px;
-    justify-content: center;
-}
-
-.facebook {
-    width: 46px;
-    height: 46px;
-    line-height: 46px;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 15px;
-    color: #fff;
-    background: #3b5998;
-}
-
-span.fab {
-    line-height: 46px;
-}
-
-.facebook:hover {
-    background: #3b5998;
-    color: #fff;
-}
-
-.twitter {
-    width: 46px;
-    height: 46px;
-    line-height: 46px;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 15px;
-    color: #fff;
-    background: #1da1f2;
-}
-
-    .twitter:hover {
-        background: #1da1f2;
-        color: #fff;
-    }
-
-.google {
-    width: 46px;
-    height: 46px;
-    line-height: 46px;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 15px;
-    color: #fff;
-    background: #ea4335;
-}
-
-    .google:hover {
-        background: #ea4335;
-        color: #fff;
-    }
-
-    .facebook:hover, .twitter:hover, .google:hover {
-        opacity: .8;
-    }
 
 ::-webkit-input-placeholder {
     /* Edge */

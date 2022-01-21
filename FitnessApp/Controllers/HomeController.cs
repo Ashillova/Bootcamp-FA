@@ -31,7 +31,8 @@ namespace FitnessApp.Controllers
         [HttpPost]
         public ActionResult Verify(Login acc)
         {
-            SecurityService securityService = new SecurityService();
+           
+           
 
             connectionString();
             con.Open();
@@ -41,7 +42,7 @@ namespace FitnessApp.Controllers
             if(dr.Read())
             {
                 con.Close();
-                return View("AdminIndex");
+                return View("Admin");
             }
             else
             {
@@ -125,6 +126,18 @@ namespace FitnessApp.Controllers
             DbContext.SaveChanges();
 
             return RedirectToAction("Index");
+        }
+        public ActionResult Admin()
+        {
+            return View();
+        }
+        public ActionResult Gallery()
+        {
+            return View();
+        }
+        public ActionResult Trainer()
+        {
+            return View();
         }
     }
 }

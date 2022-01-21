@@ -76,7 +76,6 @@ C:\Users\shill\Desktop\Detyrat\FitnessApp\FitnessApp\bin\System.Web.WebPages.Raz
 C:\Users\shill\Desktop\Detyrat\FitnessApp\FitnessApp\bin\Newtonsoft.Json.xml
 C:\Users\shill\Desktop\Detyrat\FitnessApp\FitnessApp\bin\Antlr3.Runtime.pdb
 C:\Users\shill\Desktop\Detyrat\FitnessApp\FitnessApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\shill\Desktop\Detyrat\FitnessApp\FitnessApp\obj\Debug\FitnessApp.csproj.AssemblyReference.cache
 C:\Users\shill\Desktop\Detyrat\FitnessApp\FitnessApp\obj\Debug\FitnessApp.csproj.CoreCompileInputs.cache
 C:\Users\shill\Desktop\Detyrat\FitnessApp\FitnessApp\obj\Debug\FitnessApp.csproj.CopyComplete
 C:\Users\shill\Desktop\Detyrat\FitnessApp\FitnessApp\obj\Debug\FitnessApp.dll
@@ -93,3 +92,4 @@ C:\Users\shill\Desktop\Detyrat\FitnessApp\FitnessApp\bin\System.Collections.Immu
 C:\Users\shill\Desktop\Detyrat\FitnessApp\FitnessApp\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\shill\Desktop\Detyrat\FitnessApp\FitnessApp\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\shill\Desktop\Detyrat\FitnessApp\FitnessApp\bin\System.ValueTuple.xml
+C:\Users\shill\Desktop\Detyrat\FitnessApp\FitnessApp\obj\Debug\FitnessApp.csproj.AssemblyReference.cache

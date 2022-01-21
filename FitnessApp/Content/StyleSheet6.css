@@ -1,0 +1,40 @@
+﻿.Div1 {
+    border: solid 1px;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 3%;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px 20px darkred;
+    background: url(../Images/11.jpg) center center no-repeat;
+    background-size: cover;
+}
+.Div2 {
+    position: relative;
+    border: solid 1px;
+    width: 30%;
+    border-radius: 30px;
+    margin-left: 36%;
+    height: 400px;
+    box-shadow: 0px 0px 40px 20px darkred;
+    background: url(../Images/13.jpg) center center no-repeat;
+    background-size: cover;
+}
+.Div3 {
+    border: solid 1px;
+    width: 30%;
+    margin-left: 67%;
+    border-radius: 30px;
+    height: 400px;
+    box-shadow: 0px 0px 40px 20px darkred;
+    text-align: center;
+    background: url(../Images/12.jpg) center center no-repeat;
+    background-size: cover;
+}
+h1 {
+    padding: 150px 0 0 0;
+    top: -30%;
+    text-align: center;
+    font-size: 50px;
+    color: darkred;
+}

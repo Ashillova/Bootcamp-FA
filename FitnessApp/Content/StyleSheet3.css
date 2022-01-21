@@ -1,4 +1,10 @@
-﻿* 
+﻿body {
+    background-image: url('../Images/R.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* 
 {
     box-sizing:border-box;
     padding:0;
@@ -6,7 +12,8 @@
 }
 .Navbar
 {
-    background-color:lightslategray;
+    background-color:transparent;
+    border-bottom:.2px solid darkred;
     color:white;
     display:flex;
     justify-content:space-around;
@@ -32,18 +39,20 @@
 .Navbar a:hover
 {
     color:paleturquoise;
+    background-color :darkred;
+    border-radius: 6px;
+    padding: 13px 0 12px 0 ;
 }
 .menu
 {
     display:none;
 }
-.menu-line
-{
-    width:20px;
-    height:3px;
-    background-color:white;
-    margin-bottom:3px;
 
+.menu-line {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 3px;
 }
 body 
 {
@@ -63,6 +72,9 @@ body
         display:none;
         
     }
+    .menu-line:hover {
+        color: paleturquoise;
+    }
 
     .menu {
         display: block;
@@ -73,7 +85,8 @@ body
 
     .Nav-List .item-list {
         display: block;
-        border-top: 1px solid white;
+        /*border-top: 1px solid white;*/
+        /*border-top: 1px solid white;*/
         padding: 10px;
     }
     .primary-icon
